@@ -1,0 +1,150 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    text-align: left;
+    color:#333
+}
+
+.otsikko {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 5px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.otsikko h1 {
+    margin-left: 30px;
+}
+
+.otsikko img {
+    width: 50px;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.otsikon-alla {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 30px;
+    padding-left: 0;
+    background-color: #6fb0da;
+    text-align: left;
+}
+
+.otsikon-alla p, h2 {
+    margin-left: 100px;
+}
+
+
+.konteineri {
+    display: flex;
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.menu {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.oikea-puoli {
+    color: #333;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 200px;
+    text-align: left;
+    border-left: 1px solid lightgrey;
+}
+
+.oikea-puoli p {
+    margin-top: 50px;
+}
+
+.oikea-puoli dt {
+    display: inline-block;
+    border-bottom: 2px solid #333;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.oikea-puoli dd {
+    margin-bottom: 50px;
+}
+
+.oikea-puoli h2 {
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.oikea-puoli p {
+    margin-top: 10px;
+}
+
+.oikea-puoli ul {
+    list-style-type: circle;
+    margin-bottom: 50px;
+}
+
+.oikea-puoli li {
+    margin-bottom: 20px;
+    list-style-type: circle;
+    margin-top: 20px;
+}
+
+.oikea-puoli h3 {
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.kriteerit {
+    display: flex;
+}
+
+.opiskelija {
+    border-left: 2px dotted gray;
+}
+
+
+.arvosana h3{
+    padding: 10px;
+    border-bottom: 2px dashed gray;
+}
+
+.opiskelija h3{
+    padding: 10px;
+    padding-right: 400px;
+    border-bottom: 2px  dashed gray;
+}
+
+.opiskelija p {
+    padding: 10px;
+    border-left: 2px dotten #333;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+.arvosana p {
+    padding: 0px;
+    margin-bottom: 203px;
+}
+
+.vaatimukset {
+    margin-bottom: 90px;
+}
